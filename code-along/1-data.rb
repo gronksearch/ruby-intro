@@ -5,6 +5,8 @@
 # In Ruby, there are different *types* of data:
 
 # Numbers
+puts 5
+puts 2
 
 # Perform simple math with numbers
 
