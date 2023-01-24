@@ -12,6 +12,17 @@
 # that reads "YOU LOSE!", otherwise, write a message that
 # reads "THE POINT IS {number}"
 
+role1 = rand(1..6)
+role2 = rand(1..6)
+
+if role1 + role2 == 7 || role1 + role2 == 11
+    puts "You win!"
+elsif  role1 + role2 == 2 || role1 + role2 == 3 || role1 + role2 == 12
+    puts "You loose!"
+else 
+    puts "The point is #{role1 + role2}"
+end
+
 # HINTS
 # Get a random number between 1 and 6 by doing:
 # rand(1..6)
